@@ -1,0 +1,11 @@
+.container button {
+    font-size:medium;
+    font-weight: bold;
+    border-color: black;
+    border: transparent;
+    
+}
+.container button:hover {
+    background-color: rgb(238, 234, 234);
+    border: transparent;
+}
