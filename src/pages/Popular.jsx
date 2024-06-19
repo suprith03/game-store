@@ -1,12 +1,12 @@
 import { createContext, useContext, useState } from "react";
-import "../components/Favourite.css";
+import "../components/Popular.css";
 import { items } from "../components/AllData";
 import Footer from "../components/Footer";
 import { useParams } from "react-router";
 
 export const CartContext = createContext();
 
-function Favourite() {
+function Popular() {
   const { id } = useParams();
   const item = items.filter((item) => item.id === parseInt(id));
 
@@ -85,4 +85,4 @@ function Favourite() {
   );
 }
 
-export default Favourite;
+export default Popular;

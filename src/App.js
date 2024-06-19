@@ -7,7 +7,7 @@ import Action from "./components/Categories-pages/Action";
 import Horror from "./components/Categories-pages/Horror";
 import Adventure from "./components/Categories-pages/Adventure";
 import Simulation from "./components/Categories-pages/Simulation";
-import Favourite, { CartContext } from "./pages/Favourite";
+import Favourite, { CartContext } from "./pages/Popular";
 import { useEffect, useState } from "react";
 
 function App() {
