@@ -13,6 +13,7 @@ import Img12 from "../img/products/football.png";
 import Img13 from "../img/products/last.jpg";
 import Img14 from "../img/products/eldenring.png";
 import Img15 from "../img/products/mafia.jpg";
+import Img16 from "../img/products/fs.jpg";
 import Img18 from "../img/products/fh.jpg"
 import Img19 from "../img/products/rdr2.jpg";
 import Img20 from "../img/products/nfs.jpg";
@@ -48,6 +49,8 @@ import Er1 from "../img/products/otherProducts/er1.jpg";
 import Er2 from "../img/products/otherProducts/er2.jpg";
 import M1 from "../img/products/otherProducts/m1.jpg";
 import M2 from "../img/products/otherProducts/m2.jpg";
+import FS1 from "../img/products/otherProducts/fs1.jpg";
+import FS2 from "../img/products/otherProducts/fs2.jpg";
 import Rdr1 from "../img/products/otherProducts/rdr1.jpg";
 import Rdr2 from "../img/products/otherProducts/rdr2.jpg";
 import Fh1 from "../img/products/otherProducts/fh1.jpg";
@@ -59,7 +62,7 @@ export const items = [
     id: 1,
     category: "action",
     img: Img1,
-    description: "Grand Theft Auto 5",
+    description: "Grand Theft Auto V",
     price: 1499,
     otherImgs: [OtherImgs1, OtherImgs2],
     specs:"Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games"
@@ -137,7 +140,7 @@ export const items = [
   },
   {
     id: 10,
-    category: "action",
+    category: "horror",
     img: Img10,
     description: "Ghost of Tushima",
     price: 1899,
@@ -164,7 +167,7 @@ export const items = [
   },
   {
     id: 13,
-    category: "adventure",
+    category: "horror",
     img: Img13,
     description: "THE LAST OF US Part II",
     price: 1999,
@@ -188,6 +191,15 @@ export const items = [
     price: 1799,
     otherImgs: [M1, M2],
     specs:"Mafia: Definitive Edition is a 2020 action-adventure game developed by Hangar 13 and published by 2K. It is a remake of the 2002 video game Mafia."
+  },
+  {
+    id: 16,
+    category: "simulation",
+    img: Img16,
+    description: "Microsoft Flight Simulator   ",
+    price: 2899,
+    otherImgs: [FS1, FS2],
+    specs:"Microsoft Flight Simulator is a flight simulation video game developed by Asobo Studio and published by Xbox Game Studios. It is an entry in the Microsoft Flight Simulator series which began in 1982, and was preceded by Microsoft Flight Simulator X in 2006"
   },
   {
     id: 18,
