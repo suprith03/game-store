@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { CartContext } from "../pages/Favourite";
+import { CartContext } from "../pages/Popular";
 import { IconX } from "@tabler/icons-react";
 
 function CartItem() {

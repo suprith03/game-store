@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { useContext, useState } from "react";
 import CartWithItems from "./CartWithItems";
 import EmptyCart from "./EmptyCart";
-import { CartContext } from "../pages/Favourite";
-import { IconMenu2, IconShoppingCart, IconX } from "@tabler/icons-react";
+import { CartContext } from "../pages/Popular";
+import { IconShoppingCart, IconX } from "@tabler/icons-react";
 
 function Navbar() {
   const [sticky, setSticky] = useState(false);
@@ -51,9 +51,8 @@ function Navbar() {
           </Link>
           <Link
             onClick={() => setMobileNav(!mobileNav)}
-            to="/categories/product/19"
-          >
-            favourite
+            to="/categories/product/19">
+            popular
           </Link>
         </div>
       </div>
@@ -101,7 +100,7 @@ function Navbar() {
                 onClick={() => window.scrollTo(0, 0)}
                 to="/categories/product/19"
               >
-                favourite
+                popular
               </Link>
               <i
                 data-array-length={cartItem.length}
@@ -124,7 +123,7 @@ function Navbar() {
                 onClick={() => setMobileNav(!mobileNav)}
                 className="hamburger-hamb"
               > */}
-                <IconMenu2 />
+                {/* <IconMenu2 /> */}
               {/* </i> */}
             {/* </div> */}
           </div>
