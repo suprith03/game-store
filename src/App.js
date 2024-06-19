@@ -7,7 +7,7 @@ import Action from "./components/Categories-pages/Action";
 import Horror from "./components/Categories-pages/Horror";
 import Adventure from "./components/Categories-pages/Adventure";
 import Simulation from "./components/Categories-pages/Simulation";
-import Favourite, { CartContext } from "./pages/Popular";
+import Popular, { CartContext } from "./pages/Popular";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
           <Route path="horror" element={<Horror />} />
           <Route path="simulation" element={<Simulation />} />
         </Route>
-        <Route path="categories/product/:id" element={<Favourite />} />
+        <Route path="categories/product/:id" element={<Popular />} />
       </Routes>
     </CartContext.Provider>
   );
