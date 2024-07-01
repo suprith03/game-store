@@ -1,21 +1,22 @@
 import Img1 from "../img/products/gta.jpg";
-import Img2 from "../img/products/aw.jpg";
-import Img3 from "../img/products/ac.png";
+import Img2 from "../img/products/rdr2.jpg";
+import Img3 from "../img/products/ac.jpg";
 import Img4 from "../img/products/cod.jpg";
 import Img5 from "../img/products/bf.jpg";
 import Img6 from "../img/products/cyberpunk.jpg";
 import Img7 from "../img/products/dying.jpg";
 import Img8 from "../img/products/fc.jpg";
-import Img9 from "../img/products/gof.jpg";
-import Img10 from "../img/products/ghost.png";
+import Img9 from "../img/products/gow.jpg";
+import Img10 from "../img/products/football.png";
 import Img11 from "../img/products/spiderman.png";
-import Img12 from "../img/products/football.png";
+import Img12 from "../img/products/fh.jpg"
 import Img13 from "../img/products/last.jpg";
 import Img14 from "../img/products/eldenring.png";
 import Img15 from "../img/products/mafia.jpg";
 import Img16 from "../img/products/fs.jpg";
-import Img18 from "../img/products/fh.jpg"
-import Img19 from "../img/products/rdr2.jpg";
+import Img17 from "../img/products/wwe.jpg";
+import Img18 from "../img/products/ghost.png";
+import Img19 from "../img/products/aw.jpg";
 import Img20 from "../img/products/nfs.jpg";
 import OtherImgs1 from "../img/products/otherProducts/gta1.jpg";
 import OtherImgs2 from "../img/products/otherProducts/gta2.jpg";
@@ -55,6 +56,9 @@ import Rdr1 from "../img/products/otherProducts/rdr1.jpg";
 import Rdr2 from "../img/products/otherProducts/rdr2.jpg";
 import Fh1 from "../img/products/otherProducts/fh1.jpg";
 import Fh2 from "../img/products/otherProducts/fh2.jpg";
+import wwe1 from "../img/products/otherProducts/wwe1.jpg";
+import wwe2 from "../img/products/otherProducts/wwe2.jpg";
+
 
 
 export const items = [
@@ -69,21 +73,21 @@ export const items = [
   },
   {
     id: 2,
-    category: "horror",
+    category: "adventure",
     img: Img2,
-    description: "Alan Wake 2",
-    price: 2999,
-    otherImgs: [Aw1, Aw2],
-    specs:"Alan Wake 2 is a 2023 survival horror video game developed by Remedy Entertainment and published by Epic Games Publishing"
+    description: "Red Dead Redemption 2",
+    price: 1499,
+    otherImgs: [Rdr1, Rdr2],
+    specs:"Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption."
   },
   {
     id: 3,
     category: "action",
     img: Img3,
-    description: "Assassins Creed Valhalla",
-    price: 2499,
+    description: "Assassins Creed Mirage",
+    price: 4499,
     otherImgs: [Ac1, Ac2],
-    specs:"Assassin's Creed Valhalla is a 2020 action role-playing video game developed by Ubisoft Montreal and published by Ubisoft. It is the twelfth major installment in the Assassin's Creed series"
+    specs:"Assassin's Creed Mirage is a 2023 action-adventure game developed by Ubisoft Bordeaux and published by Ubisoft. The game is the thirteenth major installment in the Assassin's Creed series."
   },
   {
     id: 4,
@@ -140,12 +144,12 @@ export const items = [
   },
   {
     id: 10,
-    category: "horror",
+    category: "simulation",
     img: Img10,
-    description: "Ghost of Tushima",
-    price: 1899,
-    otherImgs: [Ghost1, Ghost2],
-    specs:"Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. The player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan."
+    description: "EA FC 24",
+    price: 999,
+    otherImgs: [Foot1, Foot2],
+    specs:"EA Sports FC 24 is an association football-themed simulation video game developed by EA Vancouver and EA Romania and published by EA Sports. It is the inaugural installment in the EA Sports FC series, succeeding the FIFA video game series after Electronic Arts's partnership with FIFA concluded with FIFA 23."
   },
   {
     id: 11,
@@ -160,10 +164,10 @@ export const items = [
     id: 12,
     category: "simulation",
     img: Img12,
-    description: "EA FC 24",
-    price: 999,
-    otherImgs: [Foot1, Foot2],
-    specs:"EA Sports FC 24 is an association football-themed simulation video game developed by EA Vancouver and EA Romania and published by EA Sports. It is the inaugural installment in the EA Sports FC series, succeeding the FIFA video game series after Electronic Arts's partnership with FIFA concluded with FIFA 23."
+    description: "Forza Horizon 5",
+    price: 2499,
+    otherImgs: [Fh1, Fh2],
+    specs:"Forza Horizon 5 is a 2021 racing video game developed by Playground Games and published by Xbox Game Studios. It is the fifth Forza Horizon title and twelfth main instalment in the Forza series. The game is set in a fictionalised representation of Mexico."
   },
   {
     id: 13,
@@ -202,30 +206,39 @@ export const items = [
     specs:"Microsoft Flight Simulator is a flight simulation video game developed by Asobo Studio and published by Xbox Game Studios. It is an entry in the Microsoft Flight Simulator series which began in 1982, and was preceded by Microsoft Flight Simulator X in 2006"
   },
   {
+    id: 17,
+    category: "action",
+    img: Img17,
+    description: "WWE 2k24",
+    price: 3999,
+    otherImgs: [wwe1, wwe2],
+    specs:"WWE 2K24 is a professional wrestling sports video game developed by Visual Concepts and published by 2K. It is the twenty-fourth overall installment of the video game series based on WWE."
+  },
+  {
     id: 18,
-    category: "simulation",
+    category: "horror",
     img: Img18,
-    description: "Forza Horizon 5",
-    price: 2499,
-    otherImgs: [Fh1, Fh2],
-    specs:"Forza Horizon 5 is a 2021 racing video game developed by Playground Games and published by Xbox Game Studios. It is the fifth Forza Horizon title and twelfth main instalment in the Forza series. The game is set in a fictionalised representation of Mexico."
+    description: "Ghost of Tushima",
+    price: 1899,
+    otherImgs: [Ghost1, Ghost2],
+    specs:"Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. The player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan."
   },
   {
     id: 19,
-    category: "adventure",
+    category: "horror",
     img: Img19,
-    description: "Red Dead Redemption 2",
-    price: 1499,
-    otherImgs: [Rdr1, Rdr2],
-    specs:"Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption."
+    description: "Alan Wake 2",
+    price: 2999,
+    otherImgs: [Aw1, Aw2],
+    specs:"Alan Wake 2 is a 2023 survival horror video game developed by Remedy Entertainment and published by Epic Games Publishing"
   },
   {
     id: 20,
     category: "simulation",
     img: Img20,
-    description: "Need for Speed Heat",
+    description: "Need for Speed Unbound",
     price: 1999,
     otherImgs: [Need1, Need2],
-    specs:"Need for Speed Heat is a 2019 racing video game developed by Ghost Games and published by Electronic Arts for PlayStation 4, Windows, and Xbox One. It is the twenty-fourth installment in the Need for Speed series and commemorates the series' 25th anniversary"
+    specs:"Need for Speed Unbound is a 2022 racing video game developed by Criterion Games and published by Electronic Arts."
   },
 ];

@@ -1,5 +1,4 @@
 import "./Navbar.css";
-
 import LogoImg2 from "../img/gamers.jpg";
 import { Link } from "react-router-dom";
 import { useContext, useState } from "react";
@@ -51,7 +50,7 @@ function Navbar() {
           </Link>
           <Link
             onClick={() => setMobileNav(!mobileNav)}
-            to="/categories/product/19">
+            to="/categories/product/1">
             popular
           </Link>
         </div>
@@ -98,7 +97,7 @@ function Navbar() {
               </Link>
               <Link
                 onClick={() => window.scrollTo(0, 0)}
-                to="/categories/product/19"
+                to="/categories/product/1"
               >
                 popular
               </Link>

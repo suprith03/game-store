@@ -1,14 +1,20 @@
 .banner-container {
     display: flex;
     justify-content: space-between;
-    height: 54rem;
-    overflow:scroll;
+    height: 48rem;
+    flex-direction: row-reverse;
 }
 
 .banner {
     padding-bottom: .1rem;
 }
-
+.banner-container-reverse {
+    display: flex;
+    justify-content: space-between;
+    height: 40rem;
+    overflow: hidden;
+    
+}
 .text-side {
     width: 50%;
     text-align: start;
@@ -61,6 +67,23 @@
     border: 2px solid rgb(0, 0, 0); 
 }
 
+.text1 button {
+    background-color: rgb(0, 61, 215);
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: rgb(31, 179, 28);
+    transition: all 0.15s;
+}
+.text1 button:hover {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0); 
+}
 @media (max-width:750px) {
     .text-side {
         padding: 0 4rem;
