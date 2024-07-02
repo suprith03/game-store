@@ -11,6 +11,9 @@
 # production
 /build
 
+#tring new things
+README.md
+
 # misc
 .DS_Store
 .env.local
