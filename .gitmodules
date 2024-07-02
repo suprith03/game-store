@@ -1,0 +1,3 @@
+[submodule "game-store"]
+	path = game-store
+	url = https://github.com/suprith03/game-store.git
