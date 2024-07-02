@@ -91,6 +91,11 @@ function Navbar() {
                 className="logo-img"
               />
             </Link>
+            <div className="nav-center">
+              <Link to="/" className="nav-title">
+                Gamers ARENA
+              </Link>
+            </div>
             <div className="nav-links">
               <Link onClick={() => window.scrollTo(0, 0)} to="/categories/all">
                 categories
@@ -104,27 +109,10 @@ function Navbar() {
               <i
                 data-array-length={cartItem.length}
                 onClick={openCart}
-                className={`Rs.{cartItem.length < 1 ? "cart-icon" : "cart-icon with-items"}`}>
+                className={`${cartItem.length < 1 ? "cart-icon" : "cart-icon with-items"}`}>
                 <IconShoppingCart />
               </i>
             </div>
-            {/* <div className="hamburger-menu">
-              <i
-                data-array-length={cartItem.length}
-                onClick={openCart}
-                className={`hamburger-cart ${
-                  cartItem.length < 1 ? "cart-icon" : "cart-icon with-items"
-                }`}
-              >
-                <IconShoppingCart />
-              </i>
-              <i
-                onClick={() => setMobileNav(!mobileNav)}
-                className="hamburger-hamb"
-              > */}
-                {/* <IconMenu2 /> */}
-              {/* </i> */}
-            {/* </div> */}
           </div>
         </div>
       </nav>
