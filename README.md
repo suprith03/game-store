@@ -14,3 +14,6 @@ Games Store - https://suprith-game-store.netlify.app
 
 ![Screenshot 2](screenshots/S3.png)
 
+
+![Screenshot 2](screenshots/S4.png)
+
