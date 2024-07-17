@@ -13,7 +13,7 @@ function CartWithItems() {
     const newTotalPrice = cartItem.reduce((acc, item) => acc + item.price, 0);
     setTotalPrice(newTotalPrice);
   }, [cartItem]);
-
+  
   return (
     <>
       <div className="full-cart-div">

@@ -23,7 +23,8 @@
     justify-content: center;
     align-items: center;
     padding: 0 11rem;
-    background-color: #f4f1f1;
+    color: white;
+    background-color: #393737;
 }
 
 .text-side h2 {
@@ -39,7 +40,6 @@
 .img-side {
     width: 50%;
     text-align: end;
-    background-color: #E9E9E9;
 }
 
 .img-side img {
