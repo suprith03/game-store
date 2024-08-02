@@ -1,6 +1,6 @@
 .navbar {
   box-shadow: 0px 4px 5px -5px rgba(0, 0, 0, 0.23);
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(16, 16, 16);
   position: fixed;
   top: 0;
   width: 100%;
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 12rem;
+  height: 11.5rem;
   transition: height 0.1s linear;
 }
 

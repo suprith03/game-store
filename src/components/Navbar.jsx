@@ -51,18 +51,16 @@ function Navbar() {
           <Link
             onClick={() => setMobileNav(!mobileNav)}
             to="/categories/product/1">
-            popular
+            trending
           </Link>
         </div>
       </div>
 
-      {/* overlay */}
       <div
         onClick={openCart}
         className={`page-overlay ${cart ? "open-flex" : "closed-flex"}`}
       ></div>
 
-      {/* cart */}
       <div className={`cart-div ${cart ? "open-cart" : "closed-cart"}`}>
         <div className="cart-title-btn">
           <h2 className="cart-full-h2">
@@ -104,7 +102,7 @@ function Navbar() {
                 onClick={() => window.scrollTo(0, 0)}
                 to="/categories/product/1"
               >
-                popular
+                trending
               </Link>
               <i
                 data-array-length={cartItem.length}
